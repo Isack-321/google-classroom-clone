@@ -50,4 +50,4 @@ const signOut= auth.signOut();
 
 
 
-export {app, auth, firestore,signOut,signInWithGoogle};
+export default {app, auth, firestore,signOut,signInWithGoogle};
