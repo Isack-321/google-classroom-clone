@@ -1,5 +1,7 @@
 
-import firebase from "firebase";
+import firebase from 'firebase';
+
+
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
@@ -50,4 +52,4 @@ const signOut= auth.signOut();
 
 
 
-export default {app, auth, firestore,signOut,signInWithGoogle};
+export {app, auth, firestore,signOut,signInWithGoogle};
